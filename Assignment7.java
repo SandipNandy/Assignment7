@@ -40,6 +40,7 @@ public class Assignment7 {
 		int Total=HeadingValues.size()+Values.size();
 		
          System.out.println(Total);
+		
          Assert.assertEquals(Total,11);
          
          
