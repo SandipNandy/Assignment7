@@ -17,6 +17,7 @@ import org.testng.Assert;
 public class Assignment7 {
 
 	public static void main(String[] args) {
+		
 		System.setProperty("webdriver.chrome.driver","..\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
