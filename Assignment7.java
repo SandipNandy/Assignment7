@@ -49,6 +49,7 @@ public class Assignment7 {
          int ColumnTotal=ColumnValues.size();
 		
          System.out.println(ColumnTotal);
+		
          Assert.assertEquals(ColumnTotal,3);
          String[] Product=new String[ColumnTotal];
          for(int i=1;i<=Values.size();i++) {
