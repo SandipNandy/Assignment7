@@ -15,7 +15,6 @@ public class Assignment7 {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		
-		
 		driver.get("https://AutomationPractice/");
 		
 		driver.manage().timeouts().implicitlyWait(6000, TimeUnit.SECONDS);
