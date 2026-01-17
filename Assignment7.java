@@ -19,7 +19,6 @@ public class Assignment7 {
 		js.executeScript("window.scrollBy(0,500)");
 		List<WebElement> HeadingValues=driver.findElements(By.cssSelector(".table-display th:nth-child(2)"));
 		List<WebElement> Values=driver.findElements(By.cssSelector(".table-display td:nth-child(2)"));
-		
 		int Total=HeadingValues.size()+Values.size();
 		
          System.out.println(Total);
@@ -54,6 +53,7 @@ public class Assignment7 {
 	}
 
 }
+
 
 
 
