@@ -24,7 +24,6 @@ public class Assignment7 {
          Assert.assertEquals(Total,11);
          List<WebElement> ColumnValues = driver.findElements(By.cssSelector(".table-display th"));
          int ColumnTotal=ColumnValues.size();
-		
          System.out.println(ColumnTotal);
 		
          Assert.assertEquals(ColumnTotal,3);
@@ -48,6 +47,7 @@ public class Assignment7 {
 	}
 
 }
+
 
 
 
