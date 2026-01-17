@@ -22,7 +22,6 @@ public class Assignment7 {
 		int Total=HeadingValues.size()+Values.size();
          System.out.println(Total);
          Assert.assertEquals(Total,11);
-         
          List<WebElement> ColumnValues = driver.findElements(By.cssSelector(".table-display th"));
 		
          int ColumnTotal=ColumnValues.size();
@@ -50,6 +49,7 @@ public class Assignment7 {
 	}
 
 }
+
 
 
 
