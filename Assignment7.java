@@ -25,7 +25,6 @@ public class Assignment7 {
          List<WebElement> ColumnValues = driver.findElements(By.cssSelector(".table-display th"));
          int ColumnTotal=ColumnValues.size();
          System.out.println(ColumnTotal);
-		
          Assert.assertEquals(ColumnTotal,3);
 		
          String[] Product=new String[ColumnTotal];
@@ -47,6 +46,7 @@ public class Assignment7 {
 	}
 
 }
+
 
 
 
