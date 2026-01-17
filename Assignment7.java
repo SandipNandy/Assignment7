@@ -17,7 +17,6 @@ public class Assignment7 {
 		driver.manage().timeouts().implicitlyWait(6000, TimeUnit.SECONDS);
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("window.scrollBy(0,500)");
-		
 		List<WebElement> HeadingValues=driver.findElements(By.cssSelector(".table-display th:nth-child(2)"));
 		
 		List<WebElement> Values=driver.findElements(By.cssSelector(".table-display td:nth-child(2)"));
@@ -56,6 +55,7 @@ public class Assignment7 {
 	}
 
 }
+
 
 
 
