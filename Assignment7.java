@@ -21,7 +21,6 @@ public class Assignment7 {
 		List<WebElement> Values=driver.findElements(By.cssSelector(".table-display td:nth-child(2)"));
 		int Total=HeadingValues.size()+Values.size();
          System.out.println(Total);
-		
          Assert.assertEquals(Total,11);
          
          
@@ -52,6 +51,7 @@ public class Assignment7 {
 	}
 
 }
+
 
 
 
